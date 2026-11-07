@@ -2,11 +2,11 @@ const posterEl = document.getElementById("poster");
 const paraEl = document.getElementById("para");
 
 const imageEl = [
-    { src: '404 Error-bro.png' },
-    { src: '404 error lost in space-bro.png' },
-    { src: '404 error lost in space-cuate.png' },
-    { src: '404 error lost in space-pana.png' },
-    { src: '404 Error Page not Found with people connecting a plug-bro.png'}
+    { src: './images/404 Error-bro.png' },
+    { src: './images/404 error lost in space-bro.png' },
+    { src: './images/404 error lost in space-cuate.png' },
+    { src: './images/404 error lost in space-pana.png' },
+    { src: './images/404 Error Page not Found with people connecting a plug-bro.png'}
 ];
 
 let randomIndex = Math.floor(Math.random() * imageEl.length);
